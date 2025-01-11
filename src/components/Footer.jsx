@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 py-12">
       <div className="mb-8 mt-2 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] xl:px-[16vw] px-8">
-        <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 md:grid-cols-5 xl:grid-cols-5">
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
           <div className="mb-4 sm:col-span-2">
             <div className="flex items-center gap-2">
               <img src="logo.png" className="" alt="" />

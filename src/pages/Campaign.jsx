@@ -11,7 +11,7 @@ const Campaign = () => {
           Giving Help To Those <br /> Who Need It
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 pb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 pb-8">
           <Card
             img={"Rectangle 390.png"}
             target={"10,000"}
@@ -30,7 +30,12 @@ const Campaign = () => {
             goal={"25,200"}
             text={"massive invasion of Palestine, war in the Gaza strip"}
           />
-          <Card text={"Fundraising for children and refugees from donbass"} />
+          <Card
+            img={"Rectangle 390.png"}
+            target={"10,000"}
+            goal={"5,200"}
+            text={"Fundraising for children and refugees from donbass"}
+          />{" "}
         </div>
       </section>
     </div>

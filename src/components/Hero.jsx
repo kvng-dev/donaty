@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="lg:text-5xl sm:text-5xl leading-normal md:text-5xl text-4xl font-bold capitalize">
             Let{"'s"} Help and make <br className="md:hidden 2xl:block" />{" "}
             people smile by <span className="text-[#9F5FFE]">giving</span>{" "}
-            <br className="hidden lg:hidden 2xl:block xl" /> of yours
+            <br className="hidden lg:hidden xl:block 2xl:block xl" /> of yours
           </h1>
           <p className="text-[#989898] text-sm lg:text-base lg:py-12">
             No matter how small the donation you give will mean a lot to them,
@@ -62,12 +62,12 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-between gap-4">
-            <button className="px-12 flex gap-2 items-center border py-4">
+            <button className="px-12 md:px-8 xl:px-12 flex gap-2 items-center border py-4">
               <i className="fa-brands fa-apple"></i>
               <p>Pay</p>
             </button>
 
-            <button className="px-12 flex gap-2 items-center border py-4">
+            <button className="px-12 md:px-8 xl:px-12 flex gap-2 items-center border py-4">
               <img src="google.png" alt="" />
               <p>Pay</p>
             </button>

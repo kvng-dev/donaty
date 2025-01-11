@@ -8,7 +8,7 @@ const Donate = () => {
           Support us
         </p>
         <h1 className="text-3xl font-semibold mb-12 capitalize">
-          Donate to the less <br /> Needy
+          Donate to the less <br /> Priviledge
         </h1>
 
         <form className="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
